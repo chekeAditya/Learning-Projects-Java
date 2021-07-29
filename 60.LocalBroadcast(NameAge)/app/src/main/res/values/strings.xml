@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Receive Name and age</string>
+    <string name="get_data">Get Data</string>
+</resources>

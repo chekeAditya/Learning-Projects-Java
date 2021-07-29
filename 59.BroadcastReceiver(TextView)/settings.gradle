@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "Hello masai From local Broadcast"
