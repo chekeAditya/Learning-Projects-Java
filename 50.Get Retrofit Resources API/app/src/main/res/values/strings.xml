@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Get Resources API</string>
+    <string name="enter_user_id">Enter User Id</string>
+</resources>

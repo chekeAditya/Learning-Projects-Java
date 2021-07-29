@@ -1,0 +1,2 @@
+rootProject.name = "CartUsingFirebase"
+include ':app'

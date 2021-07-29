@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Complex Permission</string>
+    <string name="permissions">Permissions</string>
+</resources>

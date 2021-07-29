@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_three"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etFirstName"
+        style="@style/EdittextStyle"
+        android:hint="@string/enter_first_name"
+        />
+
+    <EditText
+        android:id="@+id/etLastName"
+        style="@style/EdittextStyle"
+        android:hint="@string/last_name"
+        />
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/EdittextStyle"
+        android:hint="@string/enter_email_id"
+        />
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        style="@style/EdittextStyle"
+        android:inputType="number"
+        android:hint="@string/enter_phone_number"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="@style/EdittextStyle"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="@string/submit"/>
+
+</LinearLayout>

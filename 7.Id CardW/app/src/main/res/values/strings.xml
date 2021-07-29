@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Id Card</string>
+    <string name="hello_android_03">Hello Android 03</string>
+    <string name="welcome_to_layouts">Welcome to Layouts</string>
+    <string name="name_aditya_cheke">Name : Aditya Cheke</string>
+    <string name="age_19">Age : 19</string>
+    <string name="next">Next</string>
+</resources>

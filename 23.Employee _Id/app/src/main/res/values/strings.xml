@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Employee Id</string>
+    <string name="add_new_employee">Add New Employee</string>
+    <string name="title">Title :</string>
+    <string name="first_name">First Name :</string>
+    <string name="last_name">Last Name :</string>
+    <string name="work_email">Work Email :</string>
+    <string name="aditya">Aditya</string>
+    <string name="cheke">Cheke</string>
+    <string name="dextorlab_pvt_gmail_com">dextorlab.pvt@gmail.com</string>
+</resources>

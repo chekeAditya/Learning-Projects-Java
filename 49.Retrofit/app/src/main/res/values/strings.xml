@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Retrofit-I</string>
+    <string name="enter_the_user_id">Enter the user id</string>
+    <string name="make_api_call">Make Api Call</string>
+</resources>

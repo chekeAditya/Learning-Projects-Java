@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login Page Using Style</string>
+    <string name="create_account">Create account</string>
+    <string name="aditya_cheke">Aditya Cheke</string>
+    <string name="adityacheke_gmail_com">adityacheke@gmail.com</string>
+    <string name="password_minimum_6_character">Password ( minimum 6 character)</string>
+    <string name="use_phone_number">Use Phone Number</string>
+    <string name="sign_up">Sign up</string>
+    <string name="continue_with_facebook">Continue With facebook</string>
+    <string name="continue_with_google">Continue With Google</string>
+</resources>

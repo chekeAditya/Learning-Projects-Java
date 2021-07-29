@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_blue"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+        android:drawablePadding="@dimen/dp_20"
+        android:fontFamily="@font/poppins_medium"
+        android:padding="@dimen/dp_20"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogin"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="40dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/black"
+        android:padding="@dimen/dp_20"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="40dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/black"
+        android:padding="@dimen/dp_20"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    
+    <Button
+        android:id="@+id/btnPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/use_phone_number"
+        app:layout_constraintTop_toBottomOf="@id/etPassword"
+        android:layout_marginTop="@dimen/dp_20"
+        android:padding="10dp"
+        android:textColor="@color/light_blue"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/login"
+        app:layout_constraintTop_toBottomOf="@id/btnPhoneNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/dp_20"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:background="@color/dark_grey"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnForgotPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/forgot_password"
+        app:layout_constraintTop_toBottomOf="@id/btnLogin"
+        android:layout_marginTop="@dimen/dp_20"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:textColor="@color/dark_grey"/>
+
+    <TextView
+        android:id="@+id/tvOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintTop_toBottomOf="@+id/btnForgotPass"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnContinueFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circular_bg"
+        android:layout_margin= "@dimen/dp_20"
+        android:text="@string/continue_with_facebook"
+        app:layout_constraintTop_toBottomOf="@id/tvOr"
+        android:layout_marginTop="@dimen/dp_20"
+        android:drawableStart="@drawable/ic_facebook"
+        android:paddingStart="@dimen/dp_20"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnContinueGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circular_bg_white"
+        android:layout_margin= "@dimen/dp_20"
+        android:text="@string/continue_with_google"
+        app:layout_constraintTop_toBottomOf="@id/btnContinueFacebook"
+        android:layout_marginTop="@dimen/dp_20"
+        android:drawableStart="@drawable/ic_google"
+        android:paddingStart="@dimen/dp_20"
+        android:textColor="@color/black"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

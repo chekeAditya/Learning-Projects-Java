@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Scroll View</string>
+    <string name="enter_the_name">Enter the Name</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="email_id">Email Id</string>
+    <string name="address">Address</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_state">Enter State</string>
+    <string name="enter_district">Enter District</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_hobbies">Enter Hobbies</string>
+    <string name="enter_interest">Enter Interest</string>
+    <string name="enter_books_name">Enter Books Name</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gradien_two"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/tvFN"
+        style="@style/TextViewStyle" />
+
+    <TextView
+        android:id="@+id/tvLN"
+        style="@style/TextViewStyle" />
+
+    <TextView
+        android:id="@+id/tvEI"
+        style="@style/TextViewStyle" />
+
+    <TextView
+        android:id="@+id/tvPn"
+        style="@style/TextViewStyle" />
+
+    <TextView
+        android:id="@+id/tvNumberOfSeats"
+        style="@style/TextViewStyle" />
+
+    <TextView
+        android:id="@+id/DateOfShow"
+        style="@style/TextViewStyle" />
+
+    <Button
+        android:id="@+id/btnConfirmed"
+        style="@style/EdittextStyle"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="@string/confirmed"/>
+
+</LinearLayout>

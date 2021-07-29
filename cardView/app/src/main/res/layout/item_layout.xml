@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="20dp"
+        android:id="@+id/cardView"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvMicrosoft"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Microsoft"/>
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_below="@+id/tvMicrosoft"
+            android:layout_width="200dp"
+            android:layout_margin="10dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/billgate"/>
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_toEndOf="@+id/ivImage"
+            android:layout_below="@+id/tvMicrosoft"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age : 64"/>
+
+            <TextView
+                android:id="@+id/tvProfession"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_toEndOf="@+id/ivImage"
+                android:layout_below="@+id/tvAge"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profession : Business"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

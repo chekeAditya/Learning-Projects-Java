@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Send Mail</string>
+    <string name="to_email_address">To : Email Address</string>
+    <string name="cc_adityacheke291_gmail_com">cc : adityacheke291@gmail.com</string>
+    <string name="message_text">Hi Sir,\nThis mail is regarding my leaves as I won’t be able to attend the team meetings due to health issues. Kindly excuse my absence</string>
+    <string name="subject">Subject :</string>
+</resources>

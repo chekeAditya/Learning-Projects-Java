@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1072847730162",
+    "project_id": "cartusingfirebase",
+    "storage_bucket": "cartusingfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072847730162:android:9a02bca79f4b300b68e76b",
+        "android_client_info": {
+          "package_name": "com.example.cartusingfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072847730162-tva7e12ctpqo57931qsad3jp4cm1mriq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz-TklX581EC5I4nIt7k9niPKYFCza4JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072847730162-tva7e12ctpqo57931qsad3jp4cm1mriq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

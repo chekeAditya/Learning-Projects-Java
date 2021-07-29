@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:background="#551947"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:drawableStart="@drawable/ic_back_arrow"
+        android:layout_width="match_parent"
+        android:drawablePadding="10dp"
+        android:layout_height="wrap_content"
+        android:background="#551947"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/fly_to_seoul"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/PersonDetails"
+            android:layout_width="wrap_content"
+            android:text="1 Adult, Economy"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:textSize="@dimen/sp_20"
+            android:drawableBottom="@drawable/ic_line"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_person"/>
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_below="@id/PersonDetails"
+            android:layout_width="wrap_content"
+            android:text="Seoul, Korea"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:textSize="@dimen/sp_20"
+            android:drawableBottom="@drawable/ic_line"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_location"/>
+        <TextView
+            android:id="@+id/Destination"
+            android:layout_below="@id/Location"
+            android:layout_width="wrap_content"
+            android:text="@string/select_destination"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:textSize="@dimen/sp_20"
+            android:drawableBottom="@drawable/ic_line"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_flight"/>
+        <TextView
+            android:id="@+id/Dates"
+            android:layout_below="@id/Destination"
+            android:layout_width="wrap_content"
+            android:text="@string/select_dates"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:textSize="@dimen/sp_20"
+            android:drawableBottom="@drawable/ic_line"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_calender"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/ExploreText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/explore_flights_by_destination"
+            android:layout_margin="10dp"
+            android:textColor="#C2C2C2"/>
+        <ImageView
+            android:id="@+id/ivKhumbuValley"
+            android:layout_below="@+id/ExploreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/khumbu_valley"
+            android:layout_margin="@dimen/sp_20"/>
+        <TextView
+            android:id="@+id/tvKhumbuValley"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/khumbu_valley_nepal"
+            android:layout_toEndOf="@+id/ivKhumbuValley"
+            android:layout_below="@+id/ExploreText"
+            android:layout_marginTop="@dimen/sp_20"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nonstop_5h_16m"
+            android:layout_below="@id/tvKhumbuValley"
+            android:layout_toEndOf="@+id/ivKhumbuValley"
+            android:textColor="#C2C2C2"/>
+
+        <ImageView
+            android:id="@+id/ivMaldives"
+            android:layout_below="@+id/ivKhumbuValley"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/maldives"
+            android:layout_margin="@dimen/sp_20"/>
+        <TextView
+            android:id="@+id/tvMaldives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maldives_south_asia"
+            android:layout_toEndOf="@+id/ivKhumbuValley"
+            android:layout_below="@+id/ivKhumbuValley"
+            android:layout_marginTop="30sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NonStop - 8h 24m+"
+            android:layout_below="@id/tvMaldives"
+            android:layout_toEndOf="@+id/ivKhumbuValley"
+            android:textColor="#C2C2C2"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

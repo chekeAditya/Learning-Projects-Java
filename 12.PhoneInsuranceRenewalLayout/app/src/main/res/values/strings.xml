@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Phone Insurance Renewal Layout</string>
+    <string name="pending_activation">Pending Activation</string>
+    <string name="device">Device :</string>
+</resources>

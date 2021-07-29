@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Second Application</string>
+    <string name="launch_second_screen">Launch Second Screen</string>
+</resources>

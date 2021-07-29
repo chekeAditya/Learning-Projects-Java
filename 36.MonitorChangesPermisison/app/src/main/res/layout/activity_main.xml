@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_four"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAccessPermsission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/access_permission"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/rectanlge"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

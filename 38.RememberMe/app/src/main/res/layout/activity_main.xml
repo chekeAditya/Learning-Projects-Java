@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_five"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="@dimen/dp_100"
+        android:textColor="@color/white"
+        android:layout_margin="30dp"
+        android:padding="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/eetUsername"
+        style="@style/Edittext"
+        android:layout_margin="20dp"
+        android:hint="@string/enter_username"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/tvLogin"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/Edittext"
+        android:layout_margin="20dp"
+        android:inputType="textWebPassword"
+        android:hint="@string/enter_password"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/eetUsername"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/etPassword"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:text="@string/remember_me"
+        android:id="@+id/checkbox"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"/>
+    
+    <Button
+        android:id="@+id/btnogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/checkbox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp"
+        android:background="@drawable/rectangle"
+        android:layout_margin="20dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

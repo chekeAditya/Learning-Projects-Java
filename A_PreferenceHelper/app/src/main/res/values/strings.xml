@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Preference Helper</string>
+    <string name="request_permission">Request Permission</string>
+</resources>

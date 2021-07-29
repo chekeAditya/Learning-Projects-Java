@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "956505388580",
+    "project_id": "built-cart-using-firebase",
+    "storage_bucket": "built-cart-using-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956505388580:android:6b4d93a2fd8f502391cab1",
+        "android_client_info": {
+          "package_name": "com.example.builtcartusingfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956505388580-8vtit38vlfbrqesrudbnj1mhabek4l9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzxlcckNodfH-GY4SpMoQ8u6WYseVAUdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956505388580-8vtit38vlfbrqesrudbnj1mhabek4l9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

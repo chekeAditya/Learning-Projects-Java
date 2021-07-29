@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnNrupul"
+        style="@style/TextViewSmallButton"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        android:text="@string/nrupul"
+        app:layout_constraintEnd_toStartOf="@+id/btnPrateek"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnPrateek"
+        style="@style/TextViewSmallButton"
+        app:layout_constraintStart_toEndOf="@+id/btnNrupul"
+        android:text="@string/prateek"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/btnPrateek"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnAlbert"
+        style="@style/TextViewLargeButton"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        android:layout_margin="40dp"
+        android:text="@string/albert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/btnAman"
+        style="@style/TextViewLargeButton"
+        app:layout_constraintTop_toBottomOf="@id/btnAlbert"
+        android:layout_margin="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/aman"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

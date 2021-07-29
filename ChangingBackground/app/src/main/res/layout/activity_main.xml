@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_topic_do_you_love"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@color/light_blue"
+        android:padding="20dp"
+        android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+        android:drawablePadding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBooks"
+            style="@style/blueButton"
+            android:layout_weight="1"
+            android:text="@string/books"/>
+
+        <Button
+            android:id="@+id/btnPodcasts"
+            style="@style/WhiteButton"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/podcasts"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNews"
+            style="@style/WhiteButton"
+            android:layout_weight="1"
+            android:text="@string/news"/>
+
+        <Button
+            android:id="@+id/btnBusiness"
+            style="@style/WhiteButton"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/business"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEntertainment"
+            style="@style/WhiteButton"
+            android:layout_weight="1"
+            android:text="@string/entertainment"/>
+
+        <Button
+            android:id="@+id/btnSports"
+            style="@style/blueButton"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/spots"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTechnology"
+            style="@style/blueButton"
+            android:layout_weight="1"
+            android:text="@string/technology"/>
+
+        <Button
+            android:id="@+id/btnPronunciation"
+            style="@style/WhiteButton"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/pronunciation"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGrammer"
+            style="@style/WhiteButton"
+            android:layout_weight="1"
+            android:text="@string/grammar"/>
+
+        <Button
+            android:id="@+id/btnHealth"
+            style="@style/WhiteButton"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/health"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvBackground"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue"
+            android:padding="30dp"/>
+
+        <Button
+            style="@style/rectangleGroup"
+            android:text="Continue"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

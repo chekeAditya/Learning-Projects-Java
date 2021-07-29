@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="@dimen/dp_10"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="@dimen/dp_10">
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/Heading"
+            android:text="Microsoft"
+            android:id="@+id/tvHeading" />
+
+        <ImageView
+            style="@style/ImageView"
+            android:id="@+id/ivImage"
+            android:src="@drawable/billgate"
+            android:layout_below="@id/tvHeading"
+            android:layout_margin="@dimen/dp_10"/>
+
+        <TextView
+            style="@style/Heading2"
+            android:text="Age : 64"
+            android:layout_toEndOf="@+id/ivImage"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_below="@+id/tvHeading"
+            android:id="@+id/tvAge" />
+
+        <TextView
+            style="@style/Heading2"
+            android:layout_toEndOf="@+id/ivImage"
+            android:text="Prefession : Business"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/tvAge"
+            android:id="@+id/tvProfession" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

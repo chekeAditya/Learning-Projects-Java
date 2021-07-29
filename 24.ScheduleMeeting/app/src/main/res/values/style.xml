@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextViewLight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#C4C4C4</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="EditTextName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginStart">@dimen/dp_20</item>
+        <item name="android:layout_marginEnd">@dimen/dp_20</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+    
+    <style name="ButtonTiming">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/dp_20</item>
+        <item name="android:paddingEnd">@dimen/dp_20</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:background">@drawable/rectangle</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="ImageView">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:paddingStart">@dimen/dp_20</item>
+        <item name="android:paddingEnd">@dimen/dp_20</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:background">@drawable/rectangle</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+</resources>

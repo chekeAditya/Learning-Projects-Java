@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PostRequest</string>
+    <string name="enter_the_email">Enter the Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="enter_request_type">Enter Request Type</string>
+    <string name="get_data">Get Data</string>
+</resources>

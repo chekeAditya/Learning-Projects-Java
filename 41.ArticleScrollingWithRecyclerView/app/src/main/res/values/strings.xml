@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Article Scrolling Recycler View</string>
+    <string name="featured">Featured</string>
+    <string name="blue_ocean">Blue Ocean</string>
+    <string name="walves_crash">Walves Crash</string>
+    <string name="article_text">See the Beautiful oceans of the Pacific coast where the water is so clean you can see the sand.</string>
+</resources>

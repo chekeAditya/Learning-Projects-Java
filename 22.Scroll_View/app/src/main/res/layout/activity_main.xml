@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etName"
+            style="@style/EditText"
+            android:hint="@string/enter_the_name"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/EditText"
+            android:hint="@string/email_id"/>
+
+        <EditText
+            android:id="@+id/BloodGroup"
+            style="@style/EditText"
+            android:hint="@string/blood_group"/>
+        <EditText
+            style="@style/EditText"
+            android:id="@+id/etAddress"
+            android:hint="@string/address"/>
+
+        <EditText
+            style="@style/EditText"
+            android:id="@+id/etPhoneNumber"
+            android:hint="@string/enter_phone_number"/>
+
+        <EditText
+            style="@style/EditText"
+            android:id="@+id/etState"
+            android:hint="@string/enter_state"/>
+
+        <EditText
+            style="@style/EditText"
+            android:id="@+id/etDistrict"
+            android:hint="@string/enter_district"/>
+
+        <EditText
+            style="@style/EditText"
+            android:id="@+id/etCity"
+            android:hint="@string/enter_city"/>
+
+        <EditText
+            style="@style/EditText"
+            android:id="@+id/etHobbies"
+            android:hint="@string/enter_hobbies"/>
+
+        <EditText
+            style="@style/EditText"
+            android:id="@+id/etInterest"
+            android:hint="@string/enter_interest"/>
+
+        <EditText
+            style="@style/EditText"
+            android:id="@+id/etBooks"
+            android:hint="@string/enter_books_name"/>
+
+    </LinearLayout>
+
+</ScrollView>

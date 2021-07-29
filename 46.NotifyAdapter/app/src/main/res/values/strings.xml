@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notify Adapter</string>
+    <string name="edit_the_name_here">Edit the name here</string>
+    <string name="edit_the_age_here">Edit the Age here</string>
+    <string name="edit_the_address_here">Edit the address here</string>
+    <string name="done">Done</string>
+</resources>

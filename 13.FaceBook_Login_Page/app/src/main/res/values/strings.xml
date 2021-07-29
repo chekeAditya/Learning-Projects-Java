@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Facebook Login Page</string>
+    <string name="enter_username_or_email_id">Enter username or email Id</string>
+</resources>

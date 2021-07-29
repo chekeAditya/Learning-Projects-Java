@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Flight Booking Page</string>
+    <string name="fly_to_seoul">Fly to Seoul</string>
+    <string name="select_destination">Select Destination</string>
+    <string name="select_dates">Select Dates</string>
+    <string name="explore_flights_by_destination">Explore Flights by destination</string>
+    <string name="khumbu_valley_nepal">Khumbu Valley, Nepal</string>
+    <string name="nonstop_5h_16m">NonStop -5h 16m+</string>
+    <string name="maldives_south_asia">Maldives, South Asia</string>
+</resources>

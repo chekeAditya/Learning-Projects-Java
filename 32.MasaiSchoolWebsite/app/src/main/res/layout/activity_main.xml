@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvMasaiWorkshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="@dimen/dp_20"
+        android:textColor="@color/red"
+        android:paddingStart="@dimen/dp_20"
+        android:text="@string/masai_s_1_day_free_coding_workshop"/>
+
+    <Button
+        android:id="@+id/btnRegisterforFree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/register_for_free"
+        android:textAllCaps="false"
+        android:textStyle="bold|italic"
+        android:layout_marginStart="@dimen/dp_20"
+        android:textColor="@color/red"
+        android:layout_below="@+id/tvMasaiWorkshop"/>
+
+    <RelativeLayout
+        android:id="@+id/rvRelative"
+        android:layout_width="match_parent"
+        android:layout_below="@id/btnRegisterforFree"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvMasai"
+            android:padding="@dimen/dp_10"
+            android:drawableEnd="@drawable/ic_baseline_menu_24"
+            android:paddingEnd="@dimen/dp_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C4C4C4"/>
+
+    <ImageView
+        android:id="@+id/tvMasaiHeading"
+        android:layout_width="60dp"
+        android:src="@drawable/masai"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_height="30dp"/>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="@dimen/dp_10"
+        android:layout_below="@id/rvRelative"
+        android:id="@+id/rvRelative2"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivImg1"
+        android:layout_below="@id/rvRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/masaione"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="@dimen/dp_10"
+        android:layout_below="@id/rvRelative2"
+        android:id="@+id/rvRelative3"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivImg2"
+            android:layout_below="@id/ivImg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/masaithree"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_below="@+id/rvRelative3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:textColor="@color/white"
+        android:text="@string/contact_us"
+        android:layout_margin="@dimen/dp_20"/>
+
+    </RelativeLayout>
+</ScrollView>

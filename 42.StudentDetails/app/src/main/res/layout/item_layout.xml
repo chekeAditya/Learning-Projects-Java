@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="5dp"
+    android:elevation="200dp"
+    android:layout_height="wrap_content">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:id="@+id/relativeLayout"
+       android:layout_margin="10dp"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/ivImage"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/asteroid"/>
+
+       <TextView
+           android:id="@+id/tvname"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Aditya Cheke"
+           android:layout_toEndOf="@id/ivImage"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="20dp"
+           android:textSize="15sp"
+           android:textColor="@color/black"
+           android:padding="5dp"/>
+
+       <TextView
+           android:id="@+id/tvAge"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="19"
+           android:layout_toEndOf="@id/ivImage"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="10dp"
+           android:layout_below="@id/tvname"
+           android:textSize="15sp"
+           android:textColor="@color/black"
+           android:padding="5dp"/>
+
+       <TextView
+           android:id="@+id/tvAddress"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Aurangabad "
+           android:layout_toEndOf="@id/ivImage"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="10dp"
+           android:layout_below="@id/tvAge"
+           android:textSize="15sp"
+           android:textColor="@color/black"
+           android:padding="5dp"/>
+
+       <TextView
+           android:id="@+id/tvDob"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="17/07/2002"
+           android:layout_toEndOf="@id/ivImage"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="10dp"
+           android:layout_below="@id/tvAddress"
+           android:textSize="15sp"
+           android:textColor="@color/black"
+           android:padding="5dp"/>
+
+   </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

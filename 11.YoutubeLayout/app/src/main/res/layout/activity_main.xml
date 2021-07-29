@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#079527"
+        android:drawableStart="@drawable/ic_back_arrow"
+        android:drawableEnd="@drawable/ic_search"
+        android:padding="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="#079527">
+
+        <ImageView
+            android:id="@+id/ivPlaybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_playbutton" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bi_bookmarks"
+            android:layout_below="@id/ivPlaybutton"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="20dp"
+            tools:ignore="NotSibling" />
+
+        <ImageView
+            android:id="@+id/ivRectangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:src="@drawable/rectangle" />
+
+        <ImageView
+            android:id="@+id/ivRectangle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/ivRectangle"
+            android:src="@drawable/rectangle_1" />
+
+        <ImageView
+            android:id="@+id/ivRectangle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivRectangle2"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/ivRectangle"
+            android:src="@drawable/rectangle_2" />
+
+        <ImageView
+            android:id="@+id/ivRectangle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivRectangle3"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/ivRectangle"
+            android:src="@drawable/rectangle_3" />
+
+            <Button
+                android:id="@+id/btnTryNow"
+                android:layout_below="@id/ivRectangle4"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#14AE24"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/button_background"
+                android:text="Try Now"/>
+            <Button
+                android:id="@+id/btnInstall"
+                android:layout_below="@id/ivRectangle4"
+                android:layout_marginTop="60dp"
+                android:layout_toEndOf="@+id/btnTryNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginStart="30dp"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:background="#14AE24"
+                android:text="Install"/>
+
+
+        <ImageView
+            android:id="@+id/circle1"
+            android:layout_below="@id/btnInstall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/circle"/>
+            <ImageView
+                android:id="@+id/circle2"
+                android:layout_below="@id/btnInstall"
+                android:layout_width="wrap_content"
+                android:layout_toEndOf="@id/circle1"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/circle"/>
+            <ImageView
+                android:id="@+id/circle3"
+                android:layout_toEndOf="@id/circle2"
+                android:layout_below="@id/btnTryNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/circle"/>
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_below="@id/circle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:layout_below="@id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"/>
+
+        </RelativeLayout>
+
+
+</LinearLayout>

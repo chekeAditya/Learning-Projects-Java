@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_four"
+    android:gravity="bottom"
+    android:layout_height="match_parent"
+    tools:context=".GettingStartedScree">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:text="@string/let_s_start"
+        android:textAllCaps="false"
+        android:background="@drawable/rectangle"
+        android:layout_gravity="center_horizontal"
+        android:padding="20sp"
+        android:id="@+id/btnGetStart"/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Schedule Meeting</string>
+    <string name="schedule_meeting">Schedule Meeting</string>
+    <string name="name">Name</string>
+    <string name="aditya_cheke">Aditya Cheke</string>
+    <string name="tue_22_december_2020">Tue - 22 December 2020</string>
+    <string name="_11_30am">11:30am</string>
+    <string name="people_to_invite">People To invite</string>
+    <string name="prateek">Prateek</string>
+    <string name="prateek_shukla">Prateek Shukla</string>
+    <string name="notify_people_on_slack">Notify people on Slack ?</string>
+    <string name="create_meeting">Create Meeting</string>
+    <string name="jeff_bezos">Jeff Bezos</string>
+</resources>

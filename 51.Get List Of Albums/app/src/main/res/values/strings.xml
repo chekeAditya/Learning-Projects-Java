@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Albums</string>
+    <string name="title">Title</string>
+    <string name="id">id</string>
+</resources>
