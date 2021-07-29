@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnBetweenApps"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:text="Broadcast between app"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnLocalBroadcast"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:text="Broadcast within app"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSecuredBroadcast"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:text="Secure Broadcast between app"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+<!--
+Steps:- design activity_main.xml as per the need
+     :- go to manifest before </application> typer <receiver =
+     :- make AirplaneModeReciever
+-->
