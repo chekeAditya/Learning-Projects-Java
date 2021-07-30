@@ -1,0 +1,2 @@
+rootProject.name = "Send BroadCast Security Consideration"
+include ':app'
