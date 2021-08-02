@@ -66,6 +66,8 @@ public class FragmentA extends Fragment {
             public void onFailure(Call<List<ResponseModelItem>> call, Throwable t) {
 
             }
+
+
         });
     }
 
@@ -89,3 +91,6 @@ public class FragmentA extends Fragment {
         });
     }
 }
+
+
+

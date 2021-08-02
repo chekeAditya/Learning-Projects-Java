@@ -128,7 +128,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openGallery() {
-
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Video.Media.EXTERNAL_CONTENT_URI);
         launchGallery.launch(intent);
     }
