@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient_three"
+    android:orientation="vertical"
+    tools:context=".Fragment.EventDetailsFragment">
+
+
+    <EditText
+        android:id="@+id/etEventTitle"
+        style="@style/EditText"
+        android:hint="@string/event_title" />
+
+    <EditText
+        android:id="@+id/etEventDescription"
+        style="@style/EditText"
+        android:hint="@string/event_description" />
+
+    <Button
+       style="@style/Button"
+        android:id="@+id/btnNext"
+        android:text="@string/next"/>
+
+</LinearLayout>

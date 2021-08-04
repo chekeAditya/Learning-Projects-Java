@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Total Apple count</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_the_number_of_apples_available">Enter the number of apples available</string>
+    <string name="apple_available">Apple Available : </string>
+    <string name="buy_apple">Buy Apple</string>
+    <string name="enter_the_number_of_apples_to_buy">Enter the number of apples to buy</string>
+</resources>

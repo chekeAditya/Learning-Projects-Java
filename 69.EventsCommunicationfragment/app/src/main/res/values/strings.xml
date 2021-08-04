@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Event Fragment Communication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_description">Event Description</string>
+    <string name="next">Next</string>
+    <string name="event_start_date">Event Start Date</string>
+    <string name="event_end_date">Event end date</string>
+    <string name="event_start_time">Event start time</string>
+    <string name="event_end_time">Event end time</string>
+    <string name="preview">Preview</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="enter_currency">Enter Currency</string>
+</resources>

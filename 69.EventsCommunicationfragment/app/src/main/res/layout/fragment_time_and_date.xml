@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_four"
+    tools:context=".Fragment.TimeAndDateFragment">
+
+    <EditText
+        android:id="@+id/etEventStartDate"
+        style="@style/EditText"
+        android:hint="@string/event_start_date" />
+
+    <EditText
+        android:id="@+id/etEventEndDate"
+        style="@style/EditText"
+        android:hint="@string/event_end_date" />
+
+    <EditText
+        android:id="@+id/etEventStartTime"
+        style="@style/EditText"
+        android:hint="@string/event_start_time" />
+
+    <EditText
+        android:id="@+id/etEventEndTime"
+        style="@style/EditText"
+        android:hint="@string/event_end_time" />
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/btnNextTimeDateFragment"
+        android:text="@string/next"/>
+
+</LinearLayout>

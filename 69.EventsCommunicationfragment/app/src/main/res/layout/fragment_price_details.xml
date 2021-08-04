@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/image"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.PriceDetailsFragment">
+
+    <EditText
+        android:id="@+id/etCurrency"
+        style="@style/EditText"
+        android:hint="@string/enter_currency" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        style="@style/EditText"
+        android:hint="@string/enter_price" />
+    <Button
+        style="@style/Button"
+        android:text="@string/preview"
+        android:id="@+id/btnPreview"/>
+
+</LinearLayout>

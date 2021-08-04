@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.PreviewActivity">
+
+    <TextView
+        style="@style/EditText"
+        android:id="@+id/tvEventTitle"/>
+
+    <TextView
+        style="@style/EditText"
+        android:id="@+id/tvEventDesc"/>
+
+    <TextView
+        style="@style/EditText"
+        android:id="@+id/tvEventStartDate"/>
+
+    <TextView
+        style="@style/EditText"
+        android:id="@+id/tvEventEndDate"/>
+
+    <TextView
+        style="@style/EditText"
+        android:id="@+id/tvStartTime"/>
+
+    <TextView
+        style="@style/EditText"
+        android:id="@+id/tvEndTime"/>
+
+    <TextView
+        style="@style/EditText"
+        android:id="@+id/tvPrice"/>
+
+</LinearLayout>
