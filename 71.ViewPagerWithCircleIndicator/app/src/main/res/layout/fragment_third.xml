@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/toon_three"
+    tools:context=".Fragment.FragmentC">
+
+
+    <TextView
+        android:id="@+id/tvHeadingFragC"
+        style="@style/Heading"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        style="@style/Text"
+        android:layout_below="@+id/tvHeadingFragC"
+        android:id="@+id/tvTextFragC"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+
+</RelativeLayout>
