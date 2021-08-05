@@ -74,8 +74,8 @@ public class MainActivity extends AppCompatActivity {
 //        thread.start(); //thread starts here and the here run() operation get called
 //        Log.d("Aditya", Thread.currentThread().getName());
 
-        workerThread.start();
         workerThread = new WorkerThread();
+        workerThread.start();
         handler = new Handler();
         workerThread.start();
 
