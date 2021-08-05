@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Thread</string>
+    <string name="task_one">Task One</string>
+    <string name="task_two">Task Two</string>
+</resources>
