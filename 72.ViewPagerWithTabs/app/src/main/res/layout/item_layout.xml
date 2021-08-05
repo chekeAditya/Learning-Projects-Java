@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:background="#C4C4C4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rajasthan"
+        android:textSize="25sp"
+        android:paddingStart="20dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:id="@+id/tvText"
+        android:textColor="@color/black"/>
+
+</androidx.cardview.widget.CardView>
