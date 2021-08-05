@@ -5,7 +5,15 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/gradient_three"
     tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:inputType="number"
+        android:id="@+id/etGiveTime"
+        android:layout_height="wrap_content"/>
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -13,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_margin="20dp"
         android:indeterminate="false"
-        android:max="10"
+        android:max="16"
         android:layout_height="30dp" />
 
     <TextView

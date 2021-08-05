@@ -20,6 +20,7 @@ public class TotalApplesFragment extends Fragment {
     private TextView mTvAppleAvailablePreview;
     private Button mBtnBuyApple;
     private CommunicationListener communicationListener;
+    private String appleRemains;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -34,9 +35,18 @@ public class TotalApplesFragment extends Fragment {
     }
 
     @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null){
+            appleRemains = String.valueOf(getArguments().getInt("remains"));
+        }
+    }
+
+    @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         initViews(view);
+        mTvAppleAvailablePreview.setText(appleRemains);
     }
 
     private void initViews(View view) {
@@ -44,12 +54,10 @@ public class TotalApplesFragment extends Fragment {
         mTvAppleAvailablePreview = view.findViewById(R.id.tvAppleAvailablePreview);
         mBtnBuyApple = view.findViewById(R.id.btnButApple);
         mBtnBuyApple.setOnClickListener(v -> {
-            int appleQuantity = Integer.parseInt(mEtAppleAvailable.getText().toString());
             Bundle bundle = new Bundle();
-            bundle.putInt("appleQuantity", appleQuantity);
-            if (communicationListener != null) {
-                communicationListener.launchBuyAppleFragment(bundle);
-            }
+            int total = Integer.parseInt(mEtAppleAvailable.getText().toString());
+            bundle.putInt("appleCount",total);
+            communicationListener.launchBuyAppleFragment(bundle);
         });
     }
 }

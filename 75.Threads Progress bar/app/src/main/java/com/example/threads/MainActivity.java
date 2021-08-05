@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private Handler mHandler;
     private TextView mTvPercentageDone;
     private int initialCount;
-
+    private EditText mEtGiveTiming;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         mProgressBar = findViewById(R.id.progressBar);
         mTvPercentageDone = findViewById(R.id.tvPercentageDone);
         mBtnCallThread = findViewById(R.id.btnCallThread);
-
+        mEtGiveTiming = findViewById(R.id.etGiveTime);
         workerThread = new WorkerThread();
         workerThread.start();
         mHandler = new Handler();
@@ -63,7 +64,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void run() {
             Log.d("Aditay", "Run method Started");
-            for (int i = 0; i <= 10; i++) {
+            int number = Integer.parseInt(mEtGiveTiming.getText().toString());
+            for (int i = 0; i <= number; i++) {
                 initialCount = i;
                 try {
                     Thread.sleep(1000);
@@ -76,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run() {
                         Log.d("Aditay", "Runnable method Started");
                         mProgressBar.setProgress(initialCount);
-                        if (initialCount == 10) {
+                        if (initialCount == number) {
                             mTvPercentageDone.setText("Task Done");
                         } else {
                             mTvPercentageDone.setText(String.valueOf(initialCount) + " % " + "done");
