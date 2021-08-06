@@ -4,6 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_four"
     tools:context=".MainActivity">
 
     <EditText
@@ -12,14 +14,23 @@
         android:background="@drawable/rectangle"
         android:layout_margin="20dp"
         android:id="@+id/etName"
+        android:textColor="@color/black"
+        android:textSize="15sp"
         android:hint="@string/enter_the_name"
-        android:padding="10dp"/>
+        android:textColorHint="@color/cyan"
+        android:padding="15dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_gravity="center"
         android:id="@+id/btnSave"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
         android:text="@string/save"
+        android:background="@drawable/rect_bg_color_blue"
         android:layout_height="wrap_content"/>
 
     <Button
@@ -27,7 +38,17 @@
         android:layout_gravity="center"
         android:id="@+id/btnGetData"
         android:text="Get Data"
+        android:background="@drawable/rect_bg_color_blue"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
         android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,6 +68,6 @@
         android:textColor="@color/black"
         android:id="@+id/tvTextView"/>
 
-
+    </LinearLayout>
 
 </LinearLayout>

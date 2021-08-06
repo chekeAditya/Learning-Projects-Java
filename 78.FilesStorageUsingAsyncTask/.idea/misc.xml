@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Development/Android_Basic_to_advanced_Learning/78.FilesStorageUsingAsyncTask/app/src/main/res/drawable/rect_bg_color_blue.xml" value="0.240625" />
         <entry key="..\:/Android Development/Android_Basic_to_advanced_Learning/78.FilesStorageUsingAsyncTask/app/src/main/res/drawable/rectangle.xml" value="0.290625" />
-        <entry key="..\:/Android Development/Android_Basic_to_advanced_Learning/78.FilesStorageUsingAsyncTask/app/src/main/res/layout/activity_main.xml" value="0.2604166666666667" />
+        <entry key="..\:/Android Development/Android_Basic_to_advanced_Learning/78.FilesStorageUsingAsyncTask/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/Android Development/Android_Basic_to_advanced_Learning/78.FilesStorageUsingAsyncTask/app/src/main/res/layout/rectangle_bg.xml" value="0.27447916666666666" />
       </map>
     </option>

@@ -29,10 +29,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initViews() {
-//        mEtName = findViewById(R.id.etName);
+        mEtName = findViewById(R.id.etName);
         mBtnSave = findViewById(R.id.btnSave);
         mBtnGet = findViewById(R.id.btnGetData);
-        field1 =  findViewById(R.id.etName);
         mTvDisplayText = findViewById(R.id.tvTextView);
         asyncTask.execute();
     }
