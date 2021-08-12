@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bound Service</string>
+    <string name="stop_music">Stop Music</string>
+    <string name="start_music">Start Music</string>
+</resources>
