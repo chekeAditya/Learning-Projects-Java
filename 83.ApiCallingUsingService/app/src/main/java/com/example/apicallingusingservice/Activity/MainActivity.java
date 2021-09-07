@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //updating the layout
+    //updating the layout   
     private class LocalBroadCastReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {

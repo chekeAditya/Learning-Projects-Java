@@ -64,11 +64,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent = new Intent(this, MusicService.class);
                 bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE);
                 break;
+
             case R.id.btnPlay:
                 if (isServiceBound) {
                     musicService.startMusic();
                 }
                 break;
+
             case R.id.btnStopService:
                 if (isServiceBound) {
                     musicService.pauseMusic();
@@ -76,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     isServiceBound = false;
                 }
                 break;
+
             case R.id.btnPause:
                 if (isServiceBound) {
                     musicService.pauseMusic();

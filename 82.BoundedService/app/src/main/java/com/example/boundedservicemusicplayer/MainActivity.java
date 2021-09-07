@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         bindService(intent, serviceConnection, BIND_AUTO_CREATE);
     }
 
-    public void setHandler(Handler handler){
+    public void setHandler(Handler handler) {
         this.mainThreadHandler = handler;
     }
 
